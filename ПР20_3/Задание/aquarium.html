@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Трансформации</title>
+<style>
+body {
+	font-family: Tahoma, Verdana, Geneva, sans-serif;
+	margin: 6em 6em;
+	font-weight: bold;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+li {
+	float: left;
+	margin-right: 10px;
+}
+li:last-of-type {
+	margin-right: 0;
+}
+
+a {
+	display: block;
+}
+.polling_message {
+  color: white;
+  float: left;
+  margin-right: 2%;
+}
+.cylon_eye {
+  background-color: red;
+  background-image: -webkit-linear-gradient(    left, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+  background-image:    -moz-linear-gradient(    left, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+  background-image:      -o-linear-gradient(    left, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+  background-image:         linear-gradient(to right, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+  color: white;
+  height: 100%;
+  width: 20%;
+
+  -webkit-animation: 4s linear 0s infinite alternate move_eye;
+     -moz-animation: 4s linear 0s infinite alternate move_eye;
+       -o-animation: 4s linear 0s infinite alternate move_eye;
+          animation: 4s linear 0s infinite alternate move_eye;
+}
+
+@-webkit-keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+   @-moz-keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+     @-o-keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+        @keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+
+@keyframes colors{
+  0% {background-color: yellow-green;}
+  20% {background-color: green;}
+  40% {background-color: blue-green;}
+  60% {background-color: blue;}
+  80% {background-color: blue-violet;}
+  100% {background-color: violet;}
+}
+#magic{
+  animation-name: colors;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+img {
+	width: 200px;
+	height: 150px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+	transition: .3s;
+}
+a:hover #img1, a:focus #img1{
+	transform: scale(1.5) rotate(-10deg)  ;
+
+}
+a:hover #img2, a:focus #img2{
+	transform: scale(1.5) rotate(-10deg)  ;
+
+}
+a:hover #img3, a:focus #img3{
+	transform: scale(1.5) rotate(-10deg)  ;
+
+}
+a:hover #img4, a:focus #img4{
+	transform: scale(1.5) rotate(-10deg)  ;
+
+}
+
+
+
+</style>
+</head>
+<body id = "magic">
+<div class="polling_message">
+<ul>
+  <li ><a href=""><img src="anchovies.jpg" id="img1" alt=""></a></li>
+  <li><a href=""><img src="jellyfish1.jpg" id="img2" alt=""></a></li>
+  <li><a href=""><img src="bluejellyfish.jpg" id="img3" alt=""></a></li>
+  <li><a href=""><img src="seadragon.jpg" id="img4"alt=""></a></li>
+
+</ul>
+</div>
+<div class="cylon_eye"></div>
+</div>
+</body>
+</html>
