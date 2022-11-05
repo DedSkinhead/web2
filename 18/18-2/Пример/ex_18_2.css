@@ -1,0 +1,275 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Tahoma, Verdana, Geneva, sans-serif;
+	margin: 2em 6em;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 1em;
+	text-transform:uppercase; 
+	margin: 4em 0 2em;
+	letter-spacing: .2em;
+	color: #ccc;
+	border-top: 1px solid #ccc;
+	}
+
+.figure {
+	clear: left;
+}
+
+
+/* FIGURE 18-7 */
+
+#fig7 .container {
+	position: relative;
+	width: 600px;
+	height: 300px;
+	padding: 0px 20px 100px 20px;
+	/* outline: 1px dashed #ccc; */
+}
+#fig7 .img1, #fig7 .img2 {
+	position: absolute;
+	top: 0;
+	left:0;
+	margin: 50px;
+}
+
+#fig7 .img1 {
+	opacity: .2;
+}
+#fig7 .img2 {
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+/* end figure 18-7 */
+
+
+
+/* FIGURE 18-8 */
+
+#fig8 .container {
+	position: relative;
+	width: 800px;
+	height: 300px;
+	padding: 150px;
+	/* outline: 1px dashed #ccc; */
+}
+#fig8 .img1, #fig8 .img3, #fig8 .img4, #fig8 .img5 {
+	position: absolute;
+	top: 0;
+	left:0;
+	margin: 100px;
+}
+
+#fig8 .img1 {
+	opacity: .2;
+}
+
+#fig8 .img3, #fig8 .img4, #fig8 .img5 {
+	-webkit-transform: rotate(25deg);
+	-moz-transform: rotate(25deg);
+	-o-transform: rotate(25deg);
+	-ms-transform: rotate(25deg);
+	transform: rotate(25deg);
+}
+
+#fig8 .img3 {
+	-webkit-transform-origin: top center;
+	-moz-transform-origin: top center;
+	-o-transform-origin: top center;
+	-ms-transform-origin: top center;
+	transform-origin: top center;
+}
+#fig8 .img4 {
+	-webkit-transform-origin: right bottom;
+	-moz-transform-origin: right bottom;
+	-o-transform-origin: right bottom;
+	-ms-transform-origin: right bottom;
+	transform-origin: right bottom;
+}
+#fig8 .img5 {
+	-webkit-transform-origin: 400px 0;
+	-moz-transform-origin: 400px 0;
+	-o-transform-origin: 400px 0;
+	-ms-transform-origin: 400px 0;
+	transform-origin: 400px 0;
+}
+
+/* end figure 18-8 */
+
+
+
+/* FIGURE 18-9 */
+
+#fig9 .container {
+	position: relative;
+	width: 800px;
+	height: 300px;
+	padding: 100px;
+	/* outline: 1px dashed #ccc; */
+}
+#fig9 .img1, #fig9 .img2 {
+	position: absolute;
+	top: 0;
+	left:0;
+	margin: 50px;
+}
+
+#fig9 .img1 {
+	opacity: .2;
+}
+#fig9 .img2 {
+  -webkit-transform: translate(90px, 60px);
+  -moz-transform: translate(90px, 60px);
+  -o-transform: translate(90px, 60px);
+  -ms-transform: translate(90px, 60px);
+  transform: translate(90px, 60px);
+}
+#fig9 .img4 {
+  -webkit-transform: translate(-5%, -25%);
+  -moz-transform: translate(-5%, -25%);
+  -o-transform: translate(-5%, -25%);
+  -ms-transform: translate(-5%, -25%);
+  transform: translate(-5%, -25%);
+}
+/* end figure 18-9 */
+
+
+
+/* FIGURE 18-10 */
+#fig10 .container {
+	position: relative;
+	width: 800px;
+	height: 300px;
+	padding: 50px 100px;
+	/* outline: 1px dashed #ccc; */
+}
+#fig10 .img1, #fig10 .img2, #fig10 .img3, #fig10 .img4 {
+	position: absolute;
+	top: 0;
+	left:0;
+	margin: 50px;
+}
+
+#fig10 .img1 {
+	opacity: .2;
+}
+#fig10 .img2 {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+}
+#fig10 .img3 {
+  -webkit-transform: scale(.75);
+  -moz-transform: scale(.75);
+  -o-transform: scale(.75);
+  -ms-transform: scale(.75);
+  transform: scale(.75);
+}
+#fig10 .img4 {
+  -webkit-transform: scale(1.5, .5);
+  -moz-transform: scale(1.5, .5);
+  -o-transform: scale(1.5, .5);
+  -ms-transform: scale(1.5, .5);
+  transform: scale(1.5, .5);
+}
+/* end figure 18-10 */
+
+
+
+
+/* FIGURE 18-11 */
+#fig11 .container {
+	position: relative;
+	width: 800px;
+	height: 300px;
+	padding: 120px;
+	/* outline: 1px dashed #ccc;*/
+}
+#fig11 .img1, #fig11 .img2, #fig11 .img3, #fig11 .img4 {
+	position: absolute;
+	top: 0;
+	left:0;
+	margin: 150px;
+}
+
+#fig11 .img1, #fig11 .img2 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#fig11 .img1 {
+	opacity: .2;
+}
+#fig11 .img2 {
+  -webkit-transform: skewX(15deg);
+  -moz-transform: skewX(15deg);
+  -o-transform: skewX(15deg);
+  -ms-transform: skewX(15deg);
+  transform: skewX(15deg);
+}
+#fig11 .img3 {
+  -webkit-transform: skewY(30deg);
+  -moz-transform: skewY(30deg);
+  -o-transform: skewY(30deg);
+  -ms-transform: skewY(30deg);
+  transform: skewY(30deg);
+}
+#fig11 .img4 {
+  -webkit-transform: skew(15deg, 30deg);
+  -moz-transform: skew(15deg, 30deg);
+  -o-transform: skew(15deg, 30deg);
+  -ms-transform: skew(15deg, 30deg);
+  transform: skew(15deg, 30deg);
+}
+/* end figure 18-11 */
+
+
+/* FIGURE 18-12 */
+#fig12 .container {
+	position: relative;
+	width: 600px;
+	height: 200px;
+	padding: 50px;
+	/* outline: 1px dashed #ccc; */
+}
+#fig12 #origimg, #tiltimg {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	}
+
+#fig12 #origimg, #tiltimg {
+	width: 200px;
+	height: 150px;
+}
+
+#fig12 #origimg {
+	opacity: .25;
+
+}
+
+#fig12 #tiltimg:hover {
+	-webkit-transform: scale(1.5) rotate(-5deg) translate(50px, 30px);
+	-moz-transform: scale(1.5) rotate(-5deg) translate(50px, 30px);
+	-o-transform: scale(1.5) rotate(-5deg) translate(50px, 30px);
+	-ms-transform: scale(1.5) rotate(-5deg) translate(50px, 30px);
+	transform: scale(1.5) rotate(-5deg) translate(50px, 30px);
+	-webkit-transform-origin: left top;
+	-moz-transform-origin: left top;
+	-o-transform-origin: left top;
+	-ms-transform-origin: left top;
+	transform-origin: left top;
+}
+/* end figure 18-12 */
+
+
+
+

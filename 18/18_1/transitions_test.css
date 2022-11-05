@@ -1,0 +1,185 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Tahoma, Verdana, Geneva, sans-serif;
+	margin: 2em 6em;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 1em;
+	text-transform:uppercase; 
+	margin: 4em 0 2em;
+	letter-spacing: .2em;
+	color: #ccc;
+	border-top: 1px solid #ccc;
+	}
+
+.figure {
+	clear: left;
+}
+
+/* FIGURE 1 */
+#fig1 a.smooth {
+	display: block;
+	text-decoration:none;
+	text-align: center;
+	padding: .5em 1em;
+	width: 10em;
+	border-radius: 1em;
+	background-color: mediumblue;
+	color: #fff;
+    transition-property: background-color; 
+    transition-duration: 2s; 
+}
+#fig1 a:hover, #fig1 a:focus {
+	background-color: red;
+}
+	
+
+/* FIGURE 2 */
+#timing_box {
+  width: 600px;
+  border: 2px solid #666;
+  background-color: #3CC;
+  padding: 0;
+  margin: 0;
+  }
+p.tf {
+  background-color: #fff;
+  border: 4px solid orange;
+  margin: 1em 0;
+  width: 120px;
+  padding: 15px 15px;
+  font-weight: normal;
+  -webkit-transition-duration: 4s;
+  -moz-transition-duration: 4s;
+  -o-transition-duration: 4s;
+  -ms-transition-duration: 4s;
+  transition-duration: 4s;
+  }
+  
+#timing_box:hover .tf {
+	width: 562px;
+}
+
+#ease {
+	-webkit-transition-timing-function: ease;
+	-moz-transition-timing-function: ease;
+	-o-transition-timing-function: ease;
+	-ms-transition-timing-function: ease;
+	transition-timing-function: ease;
+}
+#linear {
+	-webkit-transition-timing-function: linear;
+	-moz-transition-timing-function: linear;
+	-o-transition-timing-function: linear;
+	-ms-transition-timing-function: linear;
+	transition-timing-function: linear;
+}
+#ease-in {
+	-webkit-transition-timing-function: ease-in;
+	-moz-transition-timing-function: ease-in;
+	-o-transition-timing-function: ease-in;
+	-ms-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+#ease-out {
+	-webkit-transition-timing-function: ease-out;
+	-moz-transition-timing-function: ease-out;
+	-o-transition-timing-function: ease-out;
+	-ms-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+#ease-in-out {
+	-webkit-transition-timing-function: ease-in-out;
+	-moz-transition-timing-function: ease-in-out;
+	-o-transition-timing-function: ease-in-out;
+	-ms-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+}
+#steps{
+	-webkit-transition-timing-function: steps(4,end);
+	-moz-transition-timing-function: steps(4,end);
+	-o-transition-timing-function: steps(4,end);
+	-ms-transition-timing-function: steps(4,end);
+	transition-timing-function: steps(4,end);	
+}
+#step-start {
+	-webkit-transition-timing-function: step-start;
+	-moz-transition-timing-function: step-start;
+	-o-transition-timing-function: step-start;
+	-ms-transition-timing-function: step-start;
+	transition-timing-function: step-start;	
+}
+#step-end {
+	-webkit-transition-timing-function: step-end;
+	-moz-transition-timing-function: step-end;
+	-o-transition-timing-function: step-end;
+	-ms-transition-timing-function: step-end;
+	transition-timing-function: step-end;	
+
+}
+/* end FIGURE 2 */
+
+
+/* FIGURE 3 */
+#fig3 a.smooth {
+	display: block;
+	text-decoration:none;
+	text-align: center;
+	padding: .5em 1em;
+	width: 10em;
+	border-radius: 1em;
+	background-color: mediumblue;
+	color: #fff;
+	opacity: 1;
+    
+    transition-property: opacity; 
+   
+    timing-function: ease-out; 
+	
+    transition-duration: 2s;
+   
+    transition-delay: 0.5s; 
+}
+#fig3 a:hover, #fig3 a:focus {
+	background-color: red;
+
+
+}
+#fig3 a:active {
+	opacity: 0;
+}
+/* end 3 */
+
+/* FIGURE 4 */
+#fig4 a.smooth {
+	display: block;
+	text-decoration:none;
+	text-align: center;
+	padding: .5em 1em;
+	width: 10em;
+	border-radius: 1em;
+	background-color: mediumblue;
+	color: #fff;
+   
+    transition-property: background-color, color, letter-spacing; 
+    
+    transition-duration: 0.3s, 2s, 0.3s; 
+    
+    transition-timing-function: ease-out, ease-in, ease-out; 
+		
+}
+#fig4 a:hover, #fig4 a:focus {
+	background-color: red;
+	letter-spacing: 3px;
+	color: black;
+}
+/* end figure 4 */
+
+
+
+
+	
